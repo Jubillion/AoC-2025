@@ -50,3 +50,4 @@ for (let reps of primes(max)) {
 		}
 	}
 }
+console.log(`Invalid Sum (* reps): ${total}, found ${invalid.size} IDs`);
