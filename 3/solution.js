@@ -23,7 +23,7 @@ for (let bank of banks) {
 	}
 	total += max1 * 10 + max2;
 }
-console.log(`Total maximum joltage: ${total}`);
+console.log(`2-Digit Total: ${total}`);
 
 // Part 2
 total = 0;
@@ -41,4 +41,4 @@ for (let bank of banks) {
     max.reverse();
 	total += max.reduce((sum, cur, i) => sum + cur * 10 ** i, 0);
 }
-console.log(total);
+console.log(`12-Digit Total: ${total}`);
