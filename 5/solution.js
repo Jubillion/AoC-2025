@@ -22,7 +22,7 @@ for (let range of input[0]) {
 }
 console.log(`Fresh Available: ${fresh}`);
 
-// Part 2'
+// Part 2
 fresh = 0;
 input[0].sort((a, b) => a[0] - b[0]);
 let cur = input[0].shift();
